@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #a19380;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-block {
+    background-color: #fff;
+    padding: 40px 30px;
+    margin-top: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 2px #868686;
+}
+
+.form-block h1 {
+    text-align: center;
+    color: #444;
+}
+.input-label {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-label label {
+    font-size: 18px;
+}
+
+.input-label input {
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+.input-btn {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #a19380;
+    border: 1px solid #998d7b;
+    color: #27221b;
+}
+
+.input-btn:hover {
+    background-color: #a193806c;
+    transition: .3s ease-in;
+}
+
+.errors {
+    color: rgb(184, 38, 38);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.no-error {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
